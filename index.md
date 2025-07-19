@@ -9,7 +9,7 @@ permalink: /
 Welcome to my personal website! 
 
 - 🔭 **I’m currently working on:** Optimal transport
-- 🌱 **I’m learning:** Optimal transport, fluid mechanics
+- 🌱 **I’m learning:** Optimal transport, fluid mechanics, Numerical PDES, finite element
 - 💼 **Skills:** Matlab, Scipy, Numpy, Pandas, Data Science
 - 📫 **Contact:** [alenwenxinliu01@gmail.com](mailto:alenwenxinliu01@gmail.com)
 
@@ -25,13 +25,17 @@ Welcome to my personal website!
 
 ---
 
-## Blog
+## Notes
 
-<!-- I share articles on web development, open‑source, and tech.  
-Check out my [blog](/blog/) for the latest posts. -->
+Undergraduate thesis: Numerical theory and method for optimization(Prime dual, interior point method) (/UG_thesis.pdf/)
+
+Postgraduate thesis: 
+
+
+
 
 ---
 
 ## Résumé
 
-View my [Résumé](//CV.pdf/) for details on my professional experience and education.
+View my [Résumé](/CV.pdf/) for details on my professional experience and education.
