@@ -1,0 +1,65 @@
+# ─── basic information ───────────────────────────────────
+title: Alen's Personal Website          # 网站标题，通常写你的名字或品牌
+description: Welcome to my GitHub Pages site!  # 网站描述，SEO 用
+url: "https://alenwenxinliu.github.io"  # 站点根域名（不要带末尾斜杠）
+baseurl: ""            # 如果是用户主页留空；项目主页则填 "/仓库名"
+
+# ─── 主题配置 ────────────────────────────────────────
+theme: jekyll-theme-slate   # 官方主题：slate、minima、cayman、midnight 等
+# 如果用远程第三方主题，替换成：
+# remote_theme: USER/REPO
+# 并在 plugins 里加上 jekyll-remote-theme
+
+# ─── Markdown 及格式化 ───────────────────────────────
+markdown: kramdown
+kramdown:
+  input: GFM       # 支持 GitHub Flavored Markdown
+  hard_wrap: false
+
+# ─── 导航栏（可选）─────────────────────────────────
+nav:
+  # - name: Home
+  #   link: /                   # Root path, renders index.md or index.html
+  # - name: Blog
+  #   link: /blog/              # Points to /blog/index.md or the /blog/ directory
+  # - name: About
+  #   link: /about/             # Needs an about.md with `permalink: /about/`
+  # - name: Projects
+  #   link: /projects/          # Points to a projects listing page
+  # - name: Resume
+  #   link: /resume/            # Could be resume.md or a PDF at /resume.pdf
+  # - name: Contact
+  #   link: /contact/           # contact.md or even `mailto:you@example.com`
+  - name: GitHub
+    link: https://github.com/alenwenxinliu  # External link to your GitHub profile
+
+# ─── 作者 & 社交（可选）────────────────────────────
+author:
+  name: Alen
+  email: alenwenxinliu01@gmail.com
+
+social:
+  github: alenwenxinliu     # 只写用户名即可
+  #twitter: your_twitter     # 可扩展：linkedin、facebook 等
+
+# ─── 插件（可选）───────────────────────────────────
+plugins:
+  - jekyll-feed            # 自动生成 RSS
+  - jekyll-seo-tag         # 优化 SEO
+  # 如果用第三方主题：- jekyll-remote-theme
+
+# ─── 其他可选项 ────────────────────────────────────
+# lang: zh-CN                # 站点语言，方便主题做本地化
+# timezone: Asia/Shanghai    # 时区设置（可不写，Jekyll 默认 UTC）
+
+# Google Analytics（可选）
+# google_analytics: UA-XXXXXXX-X
+
+# 自定义变量（在模板/页面里可通过 site.var_name 访问）
+custom_color: "#ff6600"
+show_toc: true
+
+# 构建时忽略的文件/文件夹
+exclude:
+  - README.md
+  - LICENSE
