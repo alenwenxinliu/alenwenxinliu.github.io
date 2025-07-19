@@ -27,9 +27,9 @@ Welcome to my personal website!
 
 ## Notes
 
-Undergraduate thesis: Numerical theory and method for optimization(Prime dual, interior point method) (/UG_thesis.pdf/)
+Undergraduate thesis: [Numerical theory and method for optimization (Prime dual, interior point method)](/UG_thesis.pdf)
 
-Postgraduate thesis: 
+Postgraduate thesis: [Optimal transport](/PG_thesis.pdf)
 
 
 
