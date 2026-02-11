@@ -1,41 +1,76 @@
 ---
 layout: home
-title: Welcome
+title: Wenxin Liu
 permalink: /
 ---
 
-# Hi, I’m Alen 👋
+# Wenxin Liu
 
-Welcome to my personal website! 
-
-- 🔭 **I’m currently working on:** Optimal transport
-- 🌱 **I’m learning:** Optimal transport, fluid mechanics, Numerical PDES, finite element
-- 💼 **Skills:** Matlab, Scipy, Numpy, Pandas, Data Science
-- 📫 **Contact:** [alenwenxinliu01@gmail.com](mailto:alenwenxinliu01@gmail.com)
+MSc in Applied Mathematics (Scientific Computing & Machine Learning)  
+Imperial College London  
 
 ---
 
-## Projects
+## About Me
 
-<!-- - [Project A](https://github.com/alenwenxinliu/project-a)  
-  A concise description of what Project A does.
+I work at the intersection of **computational optimal transport, numerical PDEs, and scientific machine learning**.
 
-- [Project B](https://github.com/alenwenxinliu/project-b)  
-  A brief overview of Project B’s purpose. -->
-
----
-
-## Notes
-
-Undergraduate thesis: [Numerical theory and method for optimization (Prime dual, interior point method)](/UG_thesis.pdf)
-
-Postgraduate thesis: [Optimal transport](/PG_thesis.pdf)
-
-
-
+My research focuses on:
+- Large-scale sparse linear algebra
+- Solver acceleration and parameter optimization
+- Finite element methods
+- Primal-dual and splitting methods
+- Optimal transport and Schrödinger bridge problems
 
 ---
 
-## Résumé
+## Current Research
 
-View my [Résumé](/CV.pdf/) for details on my professional experience and education.
+### Intelligent Solver Selection for Sparse Matrix Computation
+Developed a hybrid **Graph Neural Network + MLP fusion model** for solver selection, achieving:
+
+- 80.3% accuracy over 26 solver combinations  
+- 3.83× speed-up in matrix solving  
+
+### Optimal Transport & Schrödinger Bridge
+Implemented:
+
+- Douglas–Rachford splitting
+- Primal-dual proximal methods
+- Finite element solvers in 2D/3D
+- Nonlinear prior drift with reflective boundary conditions
+
+Preprint submitted to European Control Conference:  
+http://arxiv.org/abs/2511.14355  
+
+---
+
+## Technical Expertise
+
+**Scientific Computing**
+- Finite Element Methods
+- Multigrid & Krylov solvers
+- Stability & Fourier analysis
+- IMEX schemes
+
+**Machine Learning**
+- Graph Neural Networks
+- CNN feature extraction for sparse matrices
+- U-Net (PyTorch)
+- Transfer learning
+- Custom loss design
+
+**Programming**
+Python, MATLAB, C++, R, Linux  
+NumPy, SciPy, PyTorch, Pandas  
+
+---
+
+## CV
+
+[Download CV](/CV.pdf)
+
+---
+
+📫 Contact: alenwenxinliu01@gmail.com  
+GitHub: https://github.com/alenwenxinliu
