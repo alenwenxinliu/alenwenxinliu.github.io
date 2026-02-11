@@ -24,20 +24,21 @@ My research focuses on:
 
 ---
 
-## Current Research
+## Recent Research 
 
 ### AI speed up for Large Sparse Matrix Computation
-1. Developed a hybrid **Convolution Neural Network + MLP fusion model** for solver selection, achieving:
+Developed a hybrid **Convolution Neural Network + MLP fusion model** for solver selection, achieving:
 
 - 80.3% accuracy over 26 solver combinations  
 - 3.83× speed-up in matrix solving  
 
 
-2. Designed a graph-based Autoencoder-Decoder GNN initial value predictor for OpenFOAM pressure Poisson systems, achieving:
-	•	1.67× average iteration speed-up
-	•	13.16× maximum iteration speed-up
-	•	1.79× average wall-time speed-up
-	•	19.51× maximum wall-time speed-up
+Designed a graph-based Autoencoder-Decoder GNN for initial guess prediction
+in Krylov solvers applied to OpenFOAM pressure Poisson matrices, achieving:
+- 1.67× average iteration speed-up
+- 13.16× maximum iteration speed-up
+- 1.79× average wall-time speed-up
+- 19.51× maximum wall-time speed-up
 
 
 ### Optimal Transport & Schrödinger Bridge
