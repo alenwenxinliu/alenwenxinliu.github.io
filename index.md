@@ -26,11 +26,19 @@ My research focuses on:
 
 ## Current Research
 
-### Intelligent Solver Selection for Sparse Matrix Computation
-Developed a hybrid **Graph Neural Network + MLP fusion model** for solver selection, achieving:
+### AI speed up for Large Sparse Matrix Computation
+1. Developed a hybrid **Convolution Neural Network + MLP fusion model** for solver selection, achieving:
 
 - 80.3% accuracy over 26 solver combinations  
 - 3.83× speed-up in matrix solving  
+
+
+2. Designed a graph-based Autoencoder-Decoder GNN initial value predictor for OpenFOAM pressure Poisson systems, achieving:
+	•	1.67× average iteration speed-up
+	•	13.16× maximum iteration speed-up
+	•	1.79× average wall-time speed-up
+	•	19.51× maximum wall-time speed-up
+
 
 ### Optimal Transport & Schrödinger Bridge
 Implemented:
@@ -41,7 +49,17 @@ Implemented:
 - Nonlinear prior drift with reflective boundary conditions
 
 Preprint submitted to European Control Conference:  
-http://arxiv.org/abs/2511.14355  
+(http://arxiv.org/abs/2511.14355)
+
+- Undergraduate Thesis:  
+  *Numerical theory and method for optimization (Primal-dual, interior point method)*  
+  [Download PDF](/UG_thesis.pdf)
+
+- Postgraduate Thesis:  
+  *Optimal Transport*  
+  [Download PDF](/PG_thesis.pdf)
+
+
 
 ---
 
@@ -52,13 +70,13 @@ http://arxiv.org/abs/2511.14355
 - Multigrid & Krylov solvers
 - Stability & Fourier analysis
 - IMEX schemes
+- Parallel computing and high performance computing
 
 **Machine Learning**
 - Graph Neural Networks
 - CNN feature extraction for sparse matrices
 - U-Net (PyTorch)
-- Transfer learning
-- Custom loss design
+
 
 **Programming**
 Python, MATLAB, C++, R, Linux  
