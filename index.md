@@ -91,7 +91,7 @@ Current research interests include:
 ## Education
 
 - **University of Warwick** — PhD in Applied Mathematics, incoming, Sep. 2026–Sep. 2030
-- **Imperial College London** — MSc in Applied Mathematics, Scientific Computing & Machine Learning, First Class Distinction, 2024–2025
+- **Imperial College London** — MSc in Applied Mathematics, Scientific Computing & Machine Learning, First Class Distinction
 
 ---
 
